@@ -28,7 +28,7 @@ if (usuario !== "" && contraseña !== ""){
 
 
 let canciones = prompt("Selecciona un valor del 1 - 5")
-while (canciones != ''){
+while (canciones != 'ESC'){
     switch (canciones){
         case "1":
             alert("Schism - TOOL")
