@@ -12,7 +12,9 @@
        />
 
     </head>
-    <body background="/wallpaper.jpg">
+    <body background="wallpaper.jpg">
+      <button onclick="changeColor()" id="btn">Cambiame de color</button> 
+    
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">PlayMusic</a>
@@ -59,12 +61,29 @@
           <div class="card-body">
             <h5 class="card-rock">Rockola</h5>
             <p class="card-text">Mirá cuales son nuestros recomendados del rock para tí.</p>
-            <a href="#" class="btn btn-primary">Más</a>
+            <a href="#" class="btn btn-primary" id="btnRock">Más</a>
         </div>
         </div>
+      </div>
+        
+        
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-metal">Rockola</h5>
+          <p class="card-text">Mirá cuales son nuestros recomendados de metal para tí.</p>
+          <a href="#" class="btn btn-primary" id="btnMetal">Más</a>
+      </div>
+
+      <div id="rocolaListaRock">
+
+      </div>
+      <div id="rocolaListaMetal">
+
+      </div>
+    
         
         
           
-        <script src="./preentregaCoder.js"></script> 
+        <script src="./entregaDOM.js"></script> 
     </body>
 </html>
