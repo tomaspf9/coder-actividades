@@ -1,20 +1,27 @@
-
-const listaCanciones = [
+const canciones = `[
     {
-        tittle: "Why'd you only call me when you're high",
-        file: "articmonkeys1.mp3",
-        artist: "Artic Monkeys"    },
+        "tittle": "Why'd you only call me when you're high",
+        "file": "articmonkeys1.mp3",
+        "artist": "Artic Monkeys"  
+    },
     {   
-        tittle: "How you remind me",
-        file: "nickelback1",
-        artist: "Niclelback"
+        "tittle": "How you remind me",
+        "file": "nickelback1.mp3",
+        "artist": "Niclelback"
     },
     {
-        tittle: "Dark Necessities",
-        file: "rhcp1",
-        artis: "Red Hot Chilli Peppers"
+        "tittle": "Dark Necessities",
+        "file": "rhcp1.mp3",
+        "artist": "Red Hot Chilli Peppers"
     }    
-]
+]`
+const jsonCanciones = JSON.parse(canciones)
+
+const cancionesRhcp = jsonCanciones.filter(
+    (cancion) => cancion.artist == "Red Hot Chilli Peppers" && cancion.file == "rhcp1.mp3")
+
+const rhcpSongs = JSON.stringify(cancionesRhcp)
+console.log(JSON.parse(canciones))
 
 let buscador = document.querySelector(".btn")
 buscador.addEventListener("click",() => {
