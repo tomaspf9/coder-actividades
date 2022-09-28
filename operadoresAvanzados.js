@@ -20,7 +20,9 @@ const artistaAM = {
         artist: "Artic Monkeys"  
     }
    
-
+//
 console.log(artistaAM?.file || "No se encuentra dicho elemento")
 
 console.log(artistaAM?.canciones || "No se encuentra dicho elemento")
+//
+
