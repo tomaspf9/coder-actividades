@@ -1,0 +1,45 @@
+//nuestras variables para el audio. 
+
+const musica = document.querySelector('.card')
+const reproducirMusica = docuemnt.querySelector('.play')
+const proximaCancion = document.querySelector('.next')
+const audio = document.querySelector('#audio')
+
+const songs = ["metallica", "nickelback", "rhcp"]
+
+//track de las canciones
+
+let track = 0
+
+
+//
+cargarCanciones(canciones[track])
+
+function cargarCanciones(cancion){
+    audio.src = `audios/${cancion}.mp3`
+}
+
+function reproducirCancion(){
+    const repoduciendo = card.classList.add('play')
+    reproducirCancion.querySelector('i.fas').classList.remove('fa-play')
+    reproducirCancion.querySelector('i.fas').classList.add('fa-pause')
+    audio.play()
+}
+function pausarCancion(){}
+    const repoduciendo = card.classList.remove('play')
+    reproducirCancion.querySelector('i.fas').classList.add('fa-play')
+    reproducirCancion.querySelector('i.fas').classList.remove('fa-pause')
+    audio.pause()
+//Pausa y play
+
+reproducirMusica.addEventListener('click', () =>{
+    const repoduciendo = card.classList.contains('play')
+
+    if(repoduciendo){
+        pausarCancion()
+    }else{
+        reproducirCancion()
+    }
+}
+)
+
