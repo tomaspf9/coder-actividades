@@ -1,50 +1,50 @@
 body{
-    box-sizing: border-box;
-    font-size: 18px;
-    padding: 0;
-    margin: 0;
-    transition: all 0.4s;
+  box-sizing: border-box;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  transition: all 0.4s;
 }
 .card{
-    background-color: white;
-    text-align:center;
-    color: rgb(32,32,44);
-    padding: 5px 10px;
-    margin: 10px 10px;
+  background-color: white;
+  text-align:center;
+  color: rgb(32,32,44);
+  padding: 5px 10px;
+  margin: 10px 10px;
 
 }
 h1{
-    background-color: white;
-    text-align:center;
-    color: rgb(12, 12, 12);
-    padding: 5px 10px;
-    margin: 10px 5px;
+  background-color: white;
+  text-align:center;
+  color: rgb(12, 12, 12);
+  padding: 5px 10px;
+  margin: 10px 5px;
 }
 
 
 
 .darkmode{
-    background-color: rgb(32,32,44);
-    text-align:center;
-    color: white;
-    padding: 5px 10px;
-    margin: left;
+  background-color: rgb(32,32,44);
+  text-align:center;
+  color: white;
+  padding: 5px 10px;
+  margin: left;
 
 }
 .play{
-    background-color: rgb(111, 6, 114);
-    text-align:center;
-    color: rgb(12, 12, 12);
-    padding: 5px 10px;
-    margin: 40px 10px;
+  background-color: rgb(111, 6, 114);
+  text-align:center;
+  color: rgb(12, 12, 12);
+  padding: 5px 10px;
+  margin: 40px 10px;
 }
 .next{
-    background-color: rgb(111, 6, 114);
-    text-align:center;
-    color: rgb(12, 12, 12);
-    padding: 5px 10px;
-    margin: 40px 10px;
+  background-color: rgb(111, 6, 114);
+  text-align:center;
+  color: rgb(12, 12, 12);
+  padding: 5px 10px;
+  margin: 40px 10px;
 }
 .navbar{
-  margin: 11px 5px;
+margin: 11px 5px;
 }
